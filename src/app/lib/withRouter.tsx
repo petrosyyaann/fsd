@@ -1,10 +1,11 @@
 import { Suspense } from 'react'
 import { BrowserRouter } from 'react-router-dom'
+import { LoadingPage } from '../../pages'
 
 const withRouter = (component: () => JSX.Element) => () =>
   (
     <BrowserRouter>
-      <Suspense fallback="Loading...">
+      <Suspense fallback={<LoadingPage />}>
         {component()}
       </Suspense>
     </BrowserRouter>

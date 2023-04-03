@@ -1,4 +1,4 @@
-import { withHocs } from './providers'
+import { withHocs } from './lib'
 
 import Routing from '../pages'
 

@@ -1,6 +1,6 @@
 import { Center } from '@mantine/core'
 
-import { Loader } from '../../shared'
+import { Loader } from '../../shared/ui'
 
 const LoadingPage = () => (
   <Center h="100vh">

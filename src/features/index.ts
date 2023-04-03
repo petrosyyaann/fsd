@@ -1,3 +1,3 @@
-import HomeButtonPage from './home-button'
+import NavigateToHomeButton from './navigate-to-home'
 
-export { HomeButtonPage as HomeButton }
+export { NavigateToHomeButton }

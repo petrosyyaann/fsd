@@ -1,6 +1,6 @@
 import { Flex } from '@mantine/core'
-import { Text, Title } from '../../shared'
-import { HomeButton } from '../../features'
+import { Text, Title } from '../../shared/ui'
+import { NavigateToHomeButton } from '../../features'
 
 const Error404Page = () => (
   <Flex
@@ -17,7 +17,7 @@ const Error404Page = () => (
       наши разработчики будут оповещены об этой проблеме и
       примут меры для ее устранения.
     </Text>
-    <HomeButton />
+    <NavigateToHomeButton />
   </Flex>
 )
 

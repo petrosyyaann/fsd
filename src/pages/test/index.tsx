@@ -1,5 +1,5 @@
 import { Stack } from '@mantine/core'
-import { RouterLink } from '../../shared'
+import { RouterLink } from '../../shared/lib'
 
 const TestPage = () => (
   <Stack>

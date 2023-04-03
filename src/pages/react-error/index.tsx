@@ -1,6 +1,6 @@
 import { Flex } from '@mantine/core'
-import { Text, Title } from '../../shared'
-import { HomeButton } from '../../features'
+import { Text, Title } from '../../shared/ui'
+import { NavigateToHomeButton } from '../../features'
 
 const ReactErrorPage = () => (
   <Flex
@@ -19,7 +19,7 @@ const ReactErrorPage = () => (
       <br /> все усилия, чтобы решить ее в ближайшее время,
       спасибо за ваше терпение!
     </Text>
-    <HomeButton isReloadPage />
+    <NavigateToHomeButton isReloadPage />
   </Flex>
 )
 

@@ -1,0 +1,5 @@
+export { Loader } from './loader'
+export { Text } from './text'
+export { Title } from './title'
+export { Button } from './button'
+export { Slider } from './slider'
